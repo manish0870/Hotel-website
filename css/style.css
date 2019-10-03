@@ -73,11 +73,6 @@ p {
     color: #fff;
 }
 
-.bg-lg {
-    background: #fff;
-    color: #333;
-}
-
 .bg-primary {
     background: #f7c08a;
     color: #333;
@@ -242,6 +237,42 @@ p {
     float: left;
     display: block;
     margin-right: 20px;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+    font-size: 16px;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
+#contact-form button {
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    width: 150px;
 }
 
 /* Footer */
